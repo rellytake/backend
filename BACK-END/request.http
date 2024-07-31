@@ -1,0 +1,23 @@
+POST http://localhost:4000/register
+content-Type: application/json
+
+{
+    "first_name":"johnn",
+    "last_name":"smith",
+    "username":"johnn",
+    "password":"1234pass"
+}
+
+###
+
+POST  http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username":"johnn",
+    "password":"1234pass"
+}
+###
+
+POST http://localhost:4000/add-product
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Ng.-WLw88UFilIwFK77m-2lNfKgkizMJF5NI1ti3P76QXs
